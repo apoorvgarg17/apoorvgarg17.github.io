@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 1000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -20,26 +20,27 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Apoorv Garg",
+  title: "Hi all, I'm Apoorv",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I am a passionate software systems engineer with experience building scalable and resilient systems using a range of technologies, including C/C++, Rust, Node.js, and more. With a focus on performance, reliability, and maintainability, I strive to deliver innovative solutions."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/18TKjmfa_Y2gsMZ792i20bDyadXTNgOEz/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/snipekill/",
+  linkedin: "https://www.linkedin.com/in/apoorvgarg17/",
+  gmail: "apoorv.garg.cse15@gmail.com",
+  leetcode: "https://leetcode.com/apoorvgarg17/",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +50,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "DESIGN CODE DEBUG ANALYSE IMPROVE REPEAT !!!",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Experienced in building scalable and resilient systems, including data pipelines, synchronization systems, and high-capacity streaming pipelines"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Proficient in analyzing and optimizing database performance, including execution plans, indexing, and normalization"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Comfortable working in both individual and team environments, with experience leading cross-functional teams and collaborating on complex projects"
     )
   ],
 
@@ -65,16 +66,16 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Go",
+      fontAwesomeClassname: "fa-brands fa-golang"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Rust",
+      fontAwesomeClassname: "fab fa-rust"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Php",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
       skillName: "JavaScript",
@@ -89,10 +90,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -103,10 +100,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
@@ -126,23 +119,29 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "University of California, Los Angeles",
+      logo: require("./assets/images/ucla.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "September 2021 - June 2023",
+      desc: "Relevant Courses: Cloud Computing, Big Data Systems, Advanced Computer Arch, Parallel & Dist. Computing",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Teaching Assistant for Software Engineering course, mentored 100+ students to build industry grade projects, using software development life cycle methodologies",
+        "Contributed to ongoing research as Graduate Student Researcher under the guidance of Professor Miryung Kim to generate error inducing \
+        inputs for python programs and numerical libraries such as Numpy, Scipy, etc."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Birla Institute of Technology",
+      logo: require("./assets/images/bit.png"),
+      subHeader: "Bachelor of Engineering in Computer Science & Engineering",
+      duration: "July 2015 - May 2019",
+      desc: "Relevant Courses: Data Structures and Algorithms, Operating Systems, Computer Architecture, DBMS",
+      descBullets: [
+        "Awarded GP Birla Scholarship at Birla Institute of Technology (2015-19) for academic excellence", 
+        "Won ‘Best Computer Science Solution’ award at Goldman Sachs ‘We Build’ challenge 2017 among 2K people",
+        "Leading a team of 4, won at CodeAsylums Winter Hackathon 2017, by creating a website to help users code",
+        "Secured 1st rank in ‘Bit Codezilla’, a coding event among 2015 Batch"
+    ]
     }
   ]
 };
@@ -153,16 +152,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Systems Engineering", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Databases",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,11 +173,11 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer Intern",
+      company: "Meta",
+      companylogo: require("./assets/images/meta.avif"),
+      date: "June 2022 – September 2022",
+      desc: "Awareded the highest rating given to an intern, by completing assigned work in half the time and self initiated two projects",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -211,14 +210,42 @@ const openSource = {
 
 // Some big projects you have worked on
 
+
+// Automatic GPU code generator
+
+// 3d streaming 
+// Custom Linux Shell
+// Distributed Grep
+// counter based replacement algorithm
+// OpenMP, MPI, CUDA matrix and 3d convolution
+// Examplore Plus
+// Hadoop Big Data Systems
+// diffy Fuzz
+
+// mini projects
+// pipe functionality
+// Inode file system
+
+// WebConnect
+
+// open source projects
+// watch-api
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Automatic GPU code generator",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
+      projectName: "Automatic GPU code generator",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      bullets: [
+        "Created framework to take a configuration file and output a low level C++ CUDA code for 3D convolution and GEMM with similar \
+        performance compared to the cuBlas and cuDnn",
+        ""
+      ],
+      technologies: ["python", "C", "CUDA"],
+      repo_link: "",
+      paper_link: "",
       footerLink: [
         {
           name: "Visit Website",

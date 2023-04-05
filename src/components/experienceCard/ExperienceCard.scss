@@ -31,7 +31,7 @@
   -o-filter: blur(0px);
   -ms-filter: blur(0px);
   filter: blur(0px);
-  height: 11rem;
+  height: 7rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -45,7 +45,7 @@
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
   filter: blur(5px);
-  height: 11rem;
+  height: 7rem;
   top: 0;
   left: 0;
   width: 100%;
@@ -66,7 +66,7 @@
 
 .experience-text-company {
   text-align: center;
-  padding: 1.5rem;
+  padding: 1.25rem;
   margin: 0;
   color: $lightBackground1;
   font-size: 25px;
@@ -82,7 +82,7 @@
   object-fit: cover;
   left: 0;
   right: 0;
-  top: 7rem;
+  top: -5rem;
   margin-left: auto;
   margin-right: auto;
   width: 8rem;
@@ -118,7 +118,7 @@
 
 .experience-text-details {
   padding: 1.5rem;
-  margin-top: 2rem;
+  // margin-top: 2rem;
 }
 
 /* Media Query */
