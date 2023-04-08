@@ -31,7 +31,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
   };
 
   return (
-    <div className={isDark ? "experience-card-dark" : "experience-card"}>
+    <div className={isDark ? "experience-card-dark max-w-6xl my-12" : "experience-card max-w-6xl my-12"}>
       <div style={{background: rgb(colorArrays)}} className="experience-banner">
         <div className="experience-blurred_div"></div>
         <div className="experience-div-company">
@@ -41,7 +41,8 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <img
           crossOrigin={"anonymous"}
           ref={imgRef}
-          className="experience-roundedimg"
+          className="h-32 w-32 rounded-full mx-auto absolute left-0 right-0"
+          style={{top: '-5rem'}}
           src={cardInfo.companylogo}
           alt={cardInfo.company}
           onLoad={() => getColorArrays()}
@@ -60,8 +61,8 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <h5
           className={
             isDark
-              ? "experience-text-date dark-mode-text"
-              : "experience-text-date"
+              ? "experience-text-date dark-mode-text italic"
+              : "experience-text-date italic"
           }
         >
           {cardInfo.date}
@@ -69,13 +70,13 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <p
           className={
             isDark
-              ? "subTitle experience-text-desc dark-mode-text"
-              : "subTitle experience-text-desc"
+              ? "subTitle experience-text-desc dark-mode-text font-extrabold"
+              : "subTitle experience-text-desc font-extrabold"
           }
         >
-          {cardInfo.desc}
+          " {cardInfo.desc} "
         </p>
-        <ul>
+        <ul className="list-disc text-base my-4">
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
       </div>

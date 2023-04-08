@@ -1,9 +1,9 @@
 @import "../../_globalColor";
 
 .card-image {
-  max-width: 100%;
+  // max-width: 100%;
   height: auto;
-  width: 250px;
+  width: auto;
 }
 .card-title {
   color: $titleColor;
@@ -51,7 +51,7 @@
 }
 .project-image {
   position: relative;
-  height: 250px;
+  height: 200px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -60,7 +60,7 @@
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   gap: 1rem 1rem;
 }
 

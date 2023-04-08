@@ -14,7 +14,7 @@ export default function WorkExperience() {
           <div className="experience-container" id="workExperience">
             <div>
               <h1 className="experience-heading">Experiences</h1>
-              <div className="experience-cards-div">
+              <div className="flex flex-col items-center">
                 {workExperiences.experience.map((card, i) => {
                   return (
                     <ExperienceCard
